@@ -7,8 +7,8 @@
 ## Research Context
 
 Peatlands store approximately 30% of global soil carbon despite 
-covering only 3% of land area. Scotland's Flow Country — Europe's 
-largest blanket bog — is a UNESCO World Heritage Site and critical 
+covering only 3% of land area. Scotland's Flow Country, as Europe's 
+largest blanket bog, is a UNESCO World Heritage Site and critical 
 carbon sink. This project analyses long-term vegetation dynamics 
 and maps degradation states to support carbon accounting and 
 restoration planning.
