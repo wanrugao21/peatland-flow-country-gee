@@ -44,17 +44,19 @@ recovery.
    visual interpretation
 
 ## 📁 Repository Structure
+
+```text
 ├── gee_scripts/
-│   └── 01_peatland_analysis_complete.js   # Full GEE workflow
+│   └── 01_peatland_analysis_complete.js   
 ├── r_analysis/
-│   └── 02_ndvi_slope_distribution.R       # Threshold visualisation
-├── figures/                                # Output maps
+│   └── 02_ndvi_slope_distribution.R       
+├── figures/                                
 │   ├── study_area_map.png
 │   ├── peatland_classification_k4.png
 │   ├── ndvi_trend_map.png
 │   └── confusion_matrix.png
 └── data/
-└── README.md                           # Data access instructions
+    └── README.md                           
 
 ## 🛠️ Tools
 
