@@ -43,14 +43,26 @@ recovery.
 5. **Validation**: 100 random points, Google Earth + Street View visual interpretation
 
 ## 📁 Repository Structure
-
-                        
+```text
+├── gee_scripts/
+│   └── 01_peatland_analysis_complete.js   # Full GEE workflow
+├── r_analysis/
+│   └── 02_ndvi_slope_distribution.R       # Threshold visualisation
+├── figures/                                # Output maps and charts
+│   ├── study_area_map.png
+│   ├── peatland_classification_k4.png
+│   ├── ndvi_trend_map.png
+│   └── confusion_matrix.png
+└── data/
+    └── README.md
+```  
+                  
 
 ## 🛠️ Tools
 
-- **Google Earth Engine** (JavaScript) — primary analysis
-- **R / ggplot2 / terra** — statistical visualisation
-- **ArcGIS Pro** — spatial processing and cartography
+- **Google Earth Engine** (JavaScript) — Primary analysis and data processing
+- **R / ggplot2 / terra** — Statistical visualisation and trend distribution
+- **ArcGIS Pro** — Spatial processing and cartography
 
 ## 📄 Related Work
 
