@@ -40,23 +40,11 @@ recovery.
    (sensitivity: k=3,4,5; optimal k=4)
 4. **Trend analysis**: Per-pixel NDVI linear regression  
    (annual composites 2020–2025; thresholds ±0.005 yr⁻¹)
-5. **Validation**: 100 random points, Google Earth + Street View  
-   visual interpretation
+5. **Validation**: 100 random points, Google Earth + Street View visual interpretation
 
 ## 📁 Repository Structure
 
-```text
-├── gee_scripts/
-│   └── 01_peatland_analysis_complete.js   
-├── r_analysis/
-│   └── 02_ndvi_slope_distribution.R       
-├── figures/                                
-│   ├── study_area_map.png
-│   ├── peatland_classification_k4.png
-│   ├── ndvi_trend_map.png
-│   └── confusion_matrix.png
-└── data/
-    └── README.md                           
+                        
 
 ## 🛠️ Tools
 
