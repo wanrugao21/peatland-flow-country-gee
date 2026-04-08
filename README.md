@@ -26,9 +26,9 @@
 | Positive NDVI trend | 82.6% of study area |
 
 **Key finding:** Widespread greening (82.6% positive NDVI trends)  
-does not indicate peatland recovery — positive trends in eastern  
-areas correspond to afforested/plantation zones, not Sphagnum  
-recovery.
+does not indicate peatland recovery with positive trends in the 
+eastern areas correspond to afforested/plantation zones, not 
+Sphagnum recovery.
 
 ## Methods
 
