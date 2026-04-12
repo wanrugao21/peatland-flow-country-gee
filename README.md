@@ -44,8 +44,7 @@ recovery.
    (sensitivity: k=3,4,5; optimal k=4)
 4. **Trend analysis**: Per-pixel NDVI linear regression  
    (annual composites 2020–2025; thresholds ±0.005 yr⁻¹)
-5. **Validation**: 100 random points, Google Earth + Street View  
-   visual interpretation
+5. **Validation**: 100 random points, Google Earth + Street View visual interpretation
 
 ## 📁 Repository Structure
 
