@@ -1,10 +1,14 @@
-# Multi-temporal Peatland Condition Mapping of Scotland's Flow Country
+[![Status](https://img.shields.io/badge/Status-Submitted-green)](.)
+[![Method](https://img.shields.io/badge/Method-Google_Earth_Engine-brightgreen)](https://earthengine.google.com)
+[![Data](https://img.shields.io/badge/Data-Sentinel--2-blue)](https://sentinel.esa.int)
+
+# Multi-temporal Peatland Condition Mapping — Scotland's Flow Country
 
 > Sentinel-2 remote sensing analysis of peatland degradation dynamics  
 > using Google Earth Engine. Unsupervised K-means classification and  
 > NDVI trend analysis (2020–2025).
 
-## Overview
+## 📋 Overview
 
 | Item | Detail |
 |------|--------|
@@ -15,7 +19,7 @@
 | Platform | Google Earth Engine |
 | Analysis | K-means clustering (k=4), NDVI linear trend analysis |
 
-## Key Results
+## 🗺️ Key Results
 
 | Metric | Value |
 |--------|-------|
@@ -26,11 +30,11 @@
 | Positive NDVI trend | 82.6% of study area |
 
 **Key finding:** Widespread greening (82.6% positive NDVI trends)  
-does not indicate peatland recovery with positive trends in the 
-eastern areas correspond to afforested/plantation zones, not 
-Sphagnum recovery.
+does not indicate peatland recovery — positive trends in eastern  
+areas correspond to afforested/plantation zones, not Sphagnum  
+recovery.
 
-## Methods
+## 🔬 Methods
 
 1. **Preprocessing**: SCL-based cloud masking, summer median  
    composite (June–August 2023)
@@ -40,9 +44,10 @@ Sphagnum recovery.
    (sensitivity: k=3,4,5; optimal k=4)
 4. **Trend analysis**: Per-pixel NDVI linear regression  
    (annual composites 2020–2025; thresholds ±0.005 yr⁻¹)
-5. **Validation**: 100 random points, Google Earth + Street View visual interpretation
+5. **Validation**: 100 random points, Google Earth + Street View  
+   visual interpretation
 
-## Repository Structure
+## 📁 Repository Structure
 
 ```text
 ├── gee_scripts/
@@ -59,19 +64,19 @@ Sphagnum recovery.
 ```  
                   
 
-## Tools
+## 🛠️ Tools
 
-- **Google Earth Engine** (JavaScript) — Primary analysis and data processing
-- **R / ggplot2 / terra** — Statistical visualisation and trend distribution
-- **ArcGIS Pro** — Spatial processing and cartography
+- **Google Earth Engine** (JavaScript) — primary analysis
+- **R / ggplot2 / terra** — statistical visualisation
+- **ArcGIS Pro** — spatial processing and cartography
 
-## Related Work
+## 📄 Related Work
 
 *Submitted dissertation:* "Multi-temporal Remote Sensing Analysis  
 of Peatland Condition and Degradation Patterns in the Flow Country,  
 Scotland" — University of Nottingham, 2026
 
-## Contact
+## 📬 Contact
 
 Wanru Gao | wanrugao21@gmail.com  
 BSc Environmental Science, University of Nottingham  
