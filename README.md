@@ -2,7 +2,7 @@
 [![Method](https://img.shields.io/badge/Method-Google_Earth_Engine-brightgreen)](https://earthengine.google.com)
 [![Data](https://img.shields.io/badge/Data-Sentinel--2-blue)](https://sentinel.esa.int)
 
-# Multi-temporal Peatland Condition Mapping — Scotland's Flow Country
+# Multi-temporal Peatland Condition Mapping of Scotland's Flow Country
 
 > Sentinel-2 remote sensing analysis of peatland degradation dynamics  
 > using Google Earth Engine. Unsupervised K-means classification and  
